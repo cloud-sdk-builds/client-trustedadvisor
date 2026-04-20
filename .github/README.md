@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-trustedadvisor`](https://www.npmjs.com/package/@aws-sdk/client-trustedadvisor/v/3.1032.0).
+[`@aws-sdk/client-trustedadvisor`](https://www.npmjs.com/package/@aws-sdk/client-trustedadvisor/v/3.1033.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-trustedadvisor@3.1032.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-trustedadvisor@3.1033.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-3M+xu3XXOTLBo5tsGVducmc6r2HzDfA2sHyBV6JisRn6kUvUzfMXK3uak+Qzj1RA
+sha384-AsTYCaYnn7pJ/wbjVA/zowYoH382PCwe51+sNfditqwTBI8EfY85DOOvZhYWt9BT
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-trustedadvisor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-trustedadvisor@3.1032.0/index.min.mjs"
+            "@aws-sdk/client-trustedadvisor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-trustedadvisor@3.1033.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-trustedadvisor@3.1032.0/index.min.mjs": "sha384-3M+xu3XXOTLBo5tsGVducmc6r2HzDfA2sHyBV6JisRn6kUvUzfMXK3uak+Qzj1RA"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-trustedadvisor@3.1033.0/index.min.mjs": "sha384-AsTYCaYnn7pJ/wbjVA/zowYoH382PCwe51+sNfditqwTBI8EfY85DOOvZhYWt9BT"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-trustedadvisor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-trustedadvisor@3.1032.0/index.min.mjs"
+                        "@aws-sdk/client-trustedadvisor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-trustedadvisor@3.1033.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-trustedadvisor@3.1032.0/index.min.mjs": "sha384-3M+xu3XXOTLBo5tsGVducmc6r2HzDfA2sHyBV6JisRn6kUvUzfMXK3uak+Qzj1RA"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-trustedadvisor@3.1033.0/index.min.mjs": "sha384-AsTYCaYnn7pJ/wbjVA/zowYoH382PCwe51+sNfditqwTBI8EfY85DOOvZhYWt9BT"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1032.0`)
+* Always pin to a specific version (`@3.1033.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-trustedadvisor/blob/refs/tags/3.1032.0/LICENSE
+https://github.com/cloud-sdk-builds/client-trustedadvisor/blob/refs/tags/3.1033.0/LICENSE
 ```
 
 ---
